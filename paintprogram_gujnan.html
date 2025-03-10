@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html>
+<script src="paintprogram_gunjan.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="paintprogram_gunjan.css">
+<head>
+    <title>paintprogram.html</title>
+    
+</head>
+<title> Paint Program </title>
+<body>
+
+    <button id="Yellow" onclick="colorSelected(this.id)" class="buttonyellow">Yellow</button>
+    <button id="Gold" onclick="colorSelected(this.id)" class="buttongold">Gold</button>
+    <button id="Mango" onclick="colorSelected(this.id)" class="buttonmango">Mango</button>
+    <button id="Green" onclick="colorSelected(this.id)" class="buttongreen">Green </button>
+    <button id="Olive" onclick="colorSelected(this.id)" class="buttonolive">Olive </button>
+    <button id="Aqua" onclick="colorSelected(this.id)" class="buttonaqua">Aqua </button>
+    <button id="Navy" onclick="colorSelected(this.id)" class="buttonnavy">Navy</button>
+    <button id="Blue" onclick="colorSelected(this.id)" class="buttonblue">Blue</button>
+    <button id="Purple" onclick="colorSelected(this.id)" class="buttonpurple">Purple</button>
+    <button id="Fuschia" onclick="colorSelected(this.id)" class="buttonfuchsia">Fuschia</button>
+    <button id="Pink" onclick="colorSelected(this.id)" class="buttonpink">Pink</button>
+    <button id="Red" onclick="colorSelected(this.id)" class="buttonred">Red</button>
+    <button id="Salmon" onclick="colorSelected(this.id)" class="buttonsalmon">Salmon </button>
+    <button id="Brown" onclick="colorSelected(this.id)" class="buttonbrown">Brown</button>
+    <button id="Black" onclick="colorSelected(this.id)" class="buttonblack">Black</button>
+    <button id="Gray" onclick="colorSelected(this.id)" class="buttongray">Gray</button>
+    
+<section id="container">
+   <table>
+    <tr>
+        <td id="a0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="a34" onclick="colorChanged(this.id, selectedColor)"></td>
+
+        
+    </tr>
+    <tr>
+        <td id="b0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="b34" onclick="colorChanged(this.id, selectedColor)"></td>
+
+        
+    </tr>
+    <tr>
+        <td id="c0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="c34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="d0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="d34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="e0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="e34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="f0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="f34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="g0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="g34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="h0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="h34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="i0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="i34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="j0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="j34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="k0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="k34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="l0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="l34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="m0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="m34" onclick="colorChanged(this.id, selectedColor)"></td>
+    
+    </tr>
+    <tr>
+        <td id="n0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="n34" onclick="colorChanged(this.id, selectedColor)"></td>
+    
+    </tr>
+    <tr>
+        <td id="o0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="o34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="p0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="p34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="q0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="q34" onclick="colorChanged(this.id, selectedColor)"></td>
+    
+    </tr>
+    <tr>
+        <td id="r0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="r34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="s0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="s34" onclick="colorChanged(this.id, selectedColor)"></td>
+        
+    </tr>
+    <tr>
+        <td id="t0" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t1" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t2" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t3" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t4" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t5" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t6" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t7" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t8" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t9" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t10" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t11" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t12" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t13" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t14" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t15" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t16" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t17" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t18" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t19" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t20" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t21" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t22" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t23" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t24" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t25" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t26" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t27" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t28" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t29" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t30" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t31" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t32" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t33" onclick="colorChanged(this.id, selectedColor)"></td>
+        <td id="t34" onclick="colorChanged(this.id, selectedColor)"></td>
+    </tr>
+    </table>
+        <section id="allfeaturesbuttons">
+        <button id="Erase" onclick="colorSelected(this.id)" class="featuresbuttons">Erase</button>
+        <button onclick="clearAll('white')" class="featuresbuttons">Clear All</button>
+        <button onclick="randomColorGenerator()" class="featuresbuttons">Random</button>
+        <button onclick="colorify()" class="featuresbuttons">Colorify</button>
+        <button onclick="moveColor()" class="featuresbuttons">Move</button>
+        <button onclick="startScroll()" class="featuresbuttons">Scroll</button>
+        <button onclick="stopScroll()" class="featuresbuttons">Stop</button>
+        <button onclick="flower()" class="featuresbuttons">Flower</button>
+        </section>
+    </section>        
+</body>
+</html>
+
+
+

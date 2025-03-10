@@ -1,0 +1,171 @@
+/*setting the table cells' dimensions and border*/
+td {
+  
+    border: 0.5px solid black; 
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/*setting the buttons' dimensions and border*/
+button {
+    font-size: 16px;
+    padding: 3px 3px;
+    border: none;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 1px;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    transition-duration: 0.3s;
+}
+
+/*setting each button's display. the background color of the button that has the mouse on it will change to black*/
+/*yellow button*/
+.buttonyellow {
+    margin-left: 2px;
+    color: black;
+    background-color: yellow ;
+}
+
+
+/*gold button*/
+.buttongold {
+    color: black;
+    background-color:gold
+}
+
+
+/*mango button*/
+.buttonmango {
+    color: white;
+    background-color:peru;
+}
+
+
+/*green button*/
+.buttongreen {
+    color: white;
+    background-color: green;
+}
+
+
+/*olive button*/
+.buttonolive {
+    color: white;
+    background-color:darkolivegreen;
+}
+
+
+/*aqua button*/
+.buttonaqua {
+    color: black;
+    background-color:aqua;
+}
+
+
+/*navy button*/
+.buttonnavy {
+    color: white;
+    background-color:navy
+}
+
+/*blue button*/
+.buttonblue {
+    color: white;
+    background-color: blue;
+}
+
+
+/*purple button*/
+.buttonpurple {
+    color: white;
+    background-color: purple;
+}
+
+
+/*fuchsia button*/
+.buttonfuchsia {
+    color: black;
+    background-color:fuchsia
+}
+
+
+/*pink button*/
+.buttonpink {
+    color: black;
+    background-color: pink;
+}
+
+/*red button*/
+.buttonred {
+    color: white; 
+    background-color: red ;
+}
+
+/*salmon button*/
+.buttonsalmon {
+    color: black;
+    background-color: salmon;
+}
+
+/*brown button*/
+.buttonbrown {
+    color: white;
+    background-color: brown;
+}
+
+/*black button*/
+.buttonblack {
+    color: white;
+    background-color: black;
+}
+
+/*gray button*/
+.buttongray {
+    color: white;
+    background-color: gray;
+}
+
+/*all other buttons that offer different functions like move, scroll */
+.featuresbuttons {
+    border: solid black 1px;
+    color:black;
+    background-color: white;
+    
+}
+
+/*this section has all the features buttons*/
+#allfeaturesbuttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+/*this section has the table the features buttons container*/
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
